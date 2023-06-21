@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ro-Ro">
+
+<head>
+    <title>Pagina de îregistrare</title>
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/stil.css">
+    <script src="./js/script.js"></script>
+<body>
+    <header>
+        <h1>Înregistrează</h1>
+    </header>
+    <div class="form-container">
+    <form>
+        <fieldset>
+            <legend>Informații generale</legend>
+            <label for="numeutil">Nume utilizator:</label><br>
+            <input class="inp" type="text" id="numeutil" name="numeutil"><br><br>
+            <label for="parola">Parola:</label><br>
+            <input class="inp" type="password" id="parola" name="parola"><br><br>
+            <label for="nume">Nume:</label><br>
+            <input class="inp" type="text" id="nume" name="nume"><br><br>
+            <label for="prenume">Prenume:</label><br>
+            <input class="inp" type="text" id="prenume" name="prenume"><br><br>
+            <label for="email">Email:</label><br>
+            <input class="inp" type="email" id="email" name="email"><br><br>
+            <label for="telefon">Telefon:</label><br>
+            <input class="inp" type="tel" id="telefon" name="telefon"><br><br>
+        </fieldset>
+    </form>
+    </div>
+    <img class="img1" src="./img/img7.jpg" alt="Nu s-a încărcat." width="400"><br>
+    <div class="form-container">
+    <form>
+        <fieldset>
+            <legend>Informații personale</legend>
+            <label for="sex">Sex:</label><br>
+            <select id="sex" name="sex">
+                <option value="Masculin">Masculin</option>
+                <option value="Feminin">Feminin</option>
+            </select><br><br>
+            <label for="mancare">Mâncarea preferată:</label><br>
+            <input class="inp" list="mancaree" name="mancare" id="mancare">
+            <datalist id="mancaree">
+                <option value="Paste">
+                <option value="Omletă">
+                <option value="Sushi">
+                <option value="Cartofi prăjiți">
+                <option value="Ciorbă">
+            </datalist><br><br>
+            <label for="favcol">Culoarea preferată:</label><br>
+            <input class="inp" type="color" id="favcol" name="favcol" value=""><br><br>
+            <label for="nastere">Data nașterii:</label><br>
+            <input class="inp" type="date" id="nastere" name="nastere"><br><br>
+            <label for="ora_nastere">Ora nașterii:</label><br>
+            <input class="inp" type="time" id="ora_nastere" name="ora_nastere"><br><br>
+            <label for="varsta">Vârsta:</label><br>
+            <input type="range" id="varsta" name="varsta" min="18" max="100"><br><br>
+            <label for="pagina">Adresa paginii personale: </label><br>
+            <input class="inp" type="url" id="pagina" name="pagina"><br>
+            <label for="descriere">Descriere: </label><br>
+            <textarea id="descriere" name="descriere" rows="4" cols="50"></textarea><br><br>
+        </fieldset>
+        <input type="button" class="submit" value="Înregistrează" onclick="adaugaDateUtilizator()">
+        <div id="raspuns"></div>
+    </form>
+    </div>
+    <img class="img2" src="./img/img8.jpg" alt="Nu s-a încărcat." width="400"><br>
+    <img class="img3" src="./img/img6.jpg" alt="Nu s-a încărcat." width="400"><br>
+
+</body>
+
+</html>

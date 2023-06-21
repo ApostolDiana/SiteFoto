@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE persoane SYSTEM  "persoane.dtd">
+<persoane>
+    <persoana id="1">
+        <nume>Popescu</nume>
+        <prenume>Ion</prenume>
+        <varsta>23</varsta>
+        <adresa>
+            <strada>Calistrat</strada>
+            <numar>21</numar>
+            <localitate>Pascani</localitate>
+            <judet>Iasi</judet>
+            <tara> Romania</tara>
+        </adresa>
+        <liceu>Liceul National</liceu>
+        <job>Laborant foto</job>
+    </persoana>
+
+    <persoana id="2">
+        <nume>Popa</nume>
+        <prenume>Ioana</prenume>
+        <varsta>25</varsta>
+        <adresa>
+            <strada>Crizantemelor</strada>
+            <numar>71</numar>
+            <localitate>Letcani</localitate>
+            <judet>Iasi</judet>
+            <tara> Romania</tara>
+        </adresa>
+        <liceu>Liceul Asachi</liceu>
+        <job>Retusor foto</job>
+    </persoana>
+
+    <persoana id="3">
+        <nume>Miron</nume>
+        <prenume>Ana</prenume>
+        <varsta>45</varsta>
+        <adresa>
+            <strada>Rozelor</strada>
+            <numar>121</numar>
+            <localitate>Ploiesti</localitate>
+            <judet>Prahova</judet>
+            <tara> Romania</tara>
+        </adresa>
+        <liceu>Liceul Sadoveanu</liceu>
+        <job>Operator prelucrare peliculă</job>
+
+    </persoana>
+</persoane>

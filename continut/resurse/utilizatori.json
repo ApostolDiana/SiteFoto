@@ -1,0 +1,22 @@
+[
+    {
+        "utilizator": "test",
+        "parola": "test"
+    },
+    {
+        "utilizator": "ana",
+        "parola": "aremere"
+    },
+    {
+        "utilizator": "Maria",
+        "parola": "ana"
+    },
+    {
+        "utilizator": "c",
+        "parola": "c"
+    },
+    {
+        "utilizator": "b",
+        "parola": "b"
+    }
+]

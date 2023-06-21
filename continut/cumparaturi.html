@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ro-Ro">
+
+<head>
+    <title>Cumparături</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <header>
+        <h1>Cumpărături</h1>
+    </header>
+    <h8>Puteți cumpăra fotografii unicat din portofoliul marilor artiști.</h8>
+    <form class="form1">
+        <label>Nume produs</label><br>
+        <input class="inp1" id="numeprod"><br><br>
+        <label for="cantit">Cantitate</label><br>
+        <input class="inp1" id="cantit"><br><br>
+        <p id="par">Alegeți modul de salvare a listei</p>
+        <select id="salvare" name="salvare" onchange="refresh()">
+            <option value="LocalStorage">LocalStorage</option>
+            <option value="IndexedDB">IndexedDB</option>
+        </select><br><br>
+        <button type="button" class="intr1" onclick="adaugaProdus()">Adaugă</button>
+        <button type="button" class="intr1" onclick="stergeProduse()">Șterge</button><br><br>
+    </form>
+    <table id="tabelProduse">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nume</th>
+                <th>Cantitate</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+
+
+
+</body>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ro-Ro">
+
+<head>
+    <title>Fotografia</title>
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/stil.css">
+    <script src="./js/script.js"></script>
+</head>
+
+
+<body>
+    <header>
+        <h1>Învăț</h1>
+    </header>
+    <div class="container1">
+        <aside>
+            <ul>
+                <li><a href="#section1">Secțiunea 1</a></li>
+                <li><a href="#section2">Secțiunea 2</a></li>
+                <li><a href="#section3">Secțiunea 3</a></li>
+            </ul>
+        </aside>
+    </div>
+    <section id="section1">
+        <h2>Secțiunea 1</h2>
+        <p id="url"></p>
+        <p id="locatieCurenta"></p>
+        <p id="numeBrowser"></p>
+        <p id="versiuneBrowser"></p>
+        <p id="sistemOperare"></p>
+        <p id="timpCurent"></p>
+    </section>
+    <section id="section2">
+        <h2>Secțiunea 2</h2>
+        <input type="color" id="culoare"><br><br>
+        <input type="color" id="culoare"><br><br>
+        <canvas id="myCanvas" width="800" height="400" style="border:3px solid #ae670a;" onclick="plot_pt()">
+        </canvas><br>
+        <button id="stergeCanvas" onclick="stergeCanvas()">Șterge canvas</button>
+
+
+    </section>
+    <section id="section3">
+        <h2>Secțiunea 3</h2>
+        <div>
+            <h4>Cele mai frumoase locații din lume pentru fotografiat</h4>
+            <label><strong>Țară</strong></label><br>
+            <input type="text" placeholder="Introduceți țara" id="nume" name="nume" required><br><br>
+            <label><strong>Loc</strong></label><br>
+            <input type="text" placeholder="Introduceți locul" id="loc" name="loc" required><br><br>
+            <label><strong>Alegeți culoarea liniei</strong></label><br><br>
+            <input type="color" id="culoare2"><br><br>
+            <input type="text" placeholder="Introduceți linia" id="linie" name="linie" required><br><br>
+            <button type="submit" class="intr" onclick="addTableRow()">Introduceți linia</button><br><br>
+            <label><strong>Alegeți culoarea culoanei</strong></label><br><br>
+            <input type="color" id="culoare1"><br><br>
+            <input type="number" placeholder="Introduceți coloana" id="coloana" name="coloana" required><br><br>
+            <button type="submit" class="intr" onclick="addTableColumn()">Introduceți coloana</button><br><br>
+
+            <table id="tableData">
+                <tr>
+                    <td><strong>Țară</strong></td>
+                    <td><strong>Loc</strong></td>
+                </tr>
+                <tr>
+                    <td>Namibia</td>
+                    <td>Coasta Skeleton</td>
+                </tr>
+                <tr>
+                    <td>Canada</td>
+                    <td>Canadian Rockies</td>
+                </tr>
+                <tr>
+                    <td>Mexic</td>
+                    <td>Peninsula Yukatán</td>
+                </tr>
+            </table>
+
+        </div>
+    </section>
+
+
+</body>
+
+</html>
